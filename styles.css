@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #0b0d1d;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.profile-card {
+  background-color: #5746ea;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.profile-card h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.report-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.report-buttons button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.report-buttons button.active, .report-buttons button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.report-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.card {
+  background-color: #1c1f4a;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: left;
+  position: relative;
+}
+
+.card h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.card p {
+  margin: 5px 0;
+}
+
+.card .hours {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card .last-week {
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+.card.work {
+  background-color: #ff8b64;
+}
+
+.card.play {
+  background-color: #56c2e6;
+}
+
+.card.study {
+  background-color: #ff5c7c;
+}
+
+.card.exercise {
+  background-color: #4acf81;
+}
+
+.card.social {
+  background-color: #7536d3;
+}
+
+.card.self-care {
+  background-color: #f1c75b;
+}
